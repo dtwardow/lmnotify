@@ -5,6 +5,7 @@ from lmnotify import LaMetricManager, Model, SimpleFrame
 
 
 def main():
+    # create an instance of the LaMetricManager
     lmn = LaMetricManager()
 
     # get devices

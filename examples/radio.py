@@ -1,11 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from lmnotify import LaMetricManager
 import time
+
+from lmnotify import LaMetricManager
 
 
 def main():
+    # create an instance of the LaMetricManager
     lmn = LaMetricManager()
 
     # get devices

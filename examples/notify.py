@@ -19,7 +19,7 @@ def main():
     )
     args = parser.parse_args()
 
-    # create an instance of the LaMetric manager
+    # create an instance of the LaMetricManager
     lmn = LaMetricManager()
 
     # get devices

@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from lmnotify import LaMetricManager
-
 from pprint import pprint
+
+from lmnotify import LaMetricManager
 
 
 def main():
+    # create an instance of the LaMetricManager
     lmn = LaMetricManager()
 
     # --- test cloud ---
